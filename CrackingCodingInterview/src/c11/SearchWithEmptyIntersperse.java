@@ -12,7 +12,7 @@ public class SearchWithEmptyIntersperse {
 				return -1;
 			}
 		}
-		System.out.println(mid);
+//		System.out.println(mid);
 		if (l[mid].equals(target)){
 			return mid;
 		}
