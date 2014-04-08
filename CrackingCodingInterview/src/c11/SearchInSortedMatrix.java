@@ -77,9 +77,9 @@ public class SearchInSortedMatrix {
 		if (matrix[diagUp][diagLeft]==target){
 			return new int[]{diagUp,diagLeft};
 		}
-		if (matrix[diagUp][diagLeft]>target){
-			break;
-		}
+//		if (matrix[diagUp][diagLeft]>target){
+//			break;
+//		}
 		
 		System.out.println("diagLeft: "+diagLeft);
 		System.out.println("diagUp: "+diagUp);
