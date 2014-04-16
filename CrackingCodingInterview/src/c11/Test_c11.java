@@ -13,6 +13,7 @@ public class Test_c11 {
 	int[] a;
 	String[] b;
 	int[][] c;
+	
 	SearchInRotatedList n1;
 	SearchWithEmptyIntersperse n2;
 	SearchInSortedMatrix n3;
@@ -40,6 +41,10 @@ public class Test_c11 {
 		circus.add(wh2);
 		circus.add(wh1);
 		circus.add(wh4);
+		int[] s = new int[]{1,2,3,4};
+		Arrays.sort(s);
+		
+		
 	}
 
 	@Test
